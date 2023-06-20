@@ -57,3 +57,11 @@ export class AppComponent {
   }
 
 }
+
+// export class AppComponent{
+//   @ViewChild('f') form: NgForm;
+//   defaultSubscription = 'Advanced';
+//   onSubmit(){
+//     console.log(this.form);
+//   }
+// }

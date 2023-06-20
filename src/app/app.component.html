@@ -87,4 +87,31 @@
       <p>Gender - {{ user.gender }} </p>
     </div>
   </div>
+
+  <!-- Assignment work -->
+  <!-- <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <form #f="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" class="form-control" name="email" type="email" email required ngModel #email="ngModel">
+          <p *ngIf="!email.valid && email.touched" class="help-block">Please enter a valid Email!</p>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input id="password" class="form-control" name="password" type="password" required ngModel #password="ngModel">
+          <p *ngIf="!password.valid && password.touched" class="help-block">Please enter a valid Password!</p>
+        </div>
+        <div class="form-group">
+          <label for="subscription">Subscription</label>
+          <select id="subscription" class="form-control" name ="subscription" [ngModel]="defaultSubscription">
+            <option value="Basic">Basic</option>
+            <option value="Pro">Pro</option>
+            <option value="Advanced">Advanced</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" type="submit" [disabled]="!f.valid">Submit</button>
+      </form>
+    </div>
+  </div> -->
 </div>
